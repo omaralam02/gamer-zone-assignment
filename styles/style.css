@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-:root{
+:root {
     font-size: 10px;
     --primary-font-size: 4.8rem;
     --secondary-font-size: 2rem;
@@ -16,20 +16,24 @@
     --icon-size: 4rem;
 }
 
-body {
-    width: 1450px;
+main {
+    width: 85%;
     margin: 0 auto;
 }
 
-nav {
-    height: 10vh;
+.nav {
+    height: 15vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
     display: flex;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
     width: 40%;
 }
@@ -38,7 +42,7 @@ nav {
     height: var(--icon-size);
 }
 
-.logo h3{
+.logo h3 {
     font-size: 4.5rem;
     font-weight: 700;
 }
@@ -47,10 +51,11 @@ nav {
     width: 60%;
 }
 
-nav > ul {
+nav>ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     font-size: var(--third-font-seize);
 }
 
@@ -58,4 +63,7 @@ nav > ul {
     width: 30%;
     display: flex;
     justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 1.8rem 2.4rem;
 }

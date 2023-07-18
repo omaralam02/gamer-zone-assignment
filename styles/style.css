@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 10px;
+    --primary-font-size: 4.8rem;
+    --secondary-font-size: 2rem;
+    --third-font-seize: 1.8rem;
+    --icon-size: 4rem;
+}
+
+body {
+    width: 1450px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.logo img {
+    height: var(--icon-size);
+}
+
+.logo h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.nav-list {
+    width: 60%;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: var(--third-font-seize);
+}
+
+.follow-us {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}

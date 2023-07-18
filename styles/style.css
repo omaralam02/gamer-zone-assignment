@@ -14,6 +14,9 @@
     --secondary-font-size: 2rem;
     --third-font-seize: 1.8rem;
     --icon-size: 4rem;
+    --title-color: #0b0223;
+    --desc-color: #534c64;
+    --pink: #ff42a5;
 }
 
 main {
@@ -21,6 +24,26 @@ main {
     margin: 0 auto;
 }
 
+.section-title {
+    font-size: var(--primary-font-size);
+    color: var(--title-color) font-weight: 600;
+}
+
+.section-desc {
+    font-size: var(--third-font-seize);
+    color: var(--desc-color) font-weight: 500;
+}
+
+.banner-btn {
+    font-size: var(--secondary-font-size);
+    color: #FFF;
+    padding: 2.1rem 4rem;
+    border-radius: 48px;
+    margin-right: 1.5rem;
+    border: none;
+}
+
+/* Navbar Styles */
 .nav {
     height: 15vh;
     display: flex;
@@ -35,9 +58,12 @@ main {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 35%;
 }
 
+.pink {
+    color: var(--pink);
+}
 .logo img {
     height: var(--icon-size);
 }
@@ -48,7 +74,7 @@ main {
 }
 
 .nav-list {
-    width: 60%;
+    width: 65%;
 }
 
 nav>ul {
@@ -59,11 +85,67 @@ nav>ul {
     font-size: var(--third-font-seize);
 }
 
+nav>ul li {
+    padding-right: 2rem;
+}
+
 .follow-us {
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 1.8rem 2.4rem;
+}
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    height: 85vh;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner img {
+    height: 100%;
+}
+
+.goat {
+    font-size: 9.5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-list li {
+    margin-left: 2.4rem;
+}
+
+.banner-desc>ul li:first-child {
+    list-style: url(../images/icon-01.png);
+}
+
+.banner-desc>ul li:nth-child(2) {
+    list-style: url(../images/icon-02.png);
+}
+
+.banner-desc>ul li:nth-child(3) {
+    list-style: url(../images/icon-03.png);
+}
+
+.banner-list {
+    padding-bottom: 3rem;
+}
+
+.btn-pink {
+    background-color: var(--pink);
+}
+
+.btn-blue {
+    background-color: #4ec5f7;
 }

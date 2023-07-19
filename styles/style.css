@@ -221,7 +221,6 @@ nav>ul {
 .instant-play{
     display: flex;
     align-items: center;
-    border: 2px solid tomato;
 }
 
 .instant-play p {
@@ -242,5 +241,32 @@ nav>ul {
     position: absolute;
     left: -25%;
     bottom: -10%;
+}
+
+/* Game Genre Styles */
+.game-genre {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 120px 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: var(--title-color);
+    font-size: var(--third-font-seize);
+    border: none;
+}
+
+.btn-primary img {
+    width: 40px;
+    height: 40px;
 }
 

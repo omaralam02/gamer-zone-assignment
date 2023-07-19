@@ -147,20 +147,45 @@
     }
 
     .banner {
-        flex-direction: column;
-        padding-top: 20rem;
+        flex-direction: column-reverse;
+        margin-top: 40rem;
+        background: none;
+    }
+
+    
+    .banner-desc {
+        margin: 8rem 0;
+        padding: 8rem 8rem 4rem;
+        background: url(../images/Group\ 14.png);
+        background-size: contain;
     }
 
     .online-games {
         padding-top: 15rem;
     }
 
+    .games-desc {
+        padding: 0 10rem 0;
+    }
+
+    .instant-play h3 {
+        font-size: 3.5rem;
+    }
     .instant-play p {
         padding-right: 10rem;
     }
 
     .game-genre{
-        padding: 8rem 10rem;
+        padding: 8rem 5rem;
+    }
+
+    .btn-primary {
+        font-size: 1.2rem;
+    }
+
+    .btn-primary img {
+        width: 50px;
+        height: 50px;
     }
 
     .footer {

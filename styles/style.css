@@ -246,27 +246,31 @@ nav>ul {
 /* Game Genre Styles */
 .game-genre {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 120px 60px;
+    padding: 120px 120px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 
 .btn-primary {
     display: flex;
     align-items: center;
-    gap: 15px;
     padding: 10px 15px;
     border-radius: 50px;
     background-color: #FFF;
     color: var(--title-color);
     font-size: var(--third-font-seize);
+    font-weight: 600;
     border: none;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary:hover {
+    border: 2px solid var(--pink);
+    color: var(--pink);
 }
 
 .btn-primary img {
-    width: 40px;
-    height: 40px;
+    margin-right: 10px;
 }
-

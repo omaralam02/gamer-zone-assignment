@@ -88,4 +88,20 @@
         left: 0;
         bottom: 0;
     }
+
+    .game-genre {
+        padding: 60px 5px;
+    }
+
+    .btn-primary {
+        font-size: 10px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        padding: 5px 8px;
+    }
+
+    .btn-primary img {
+        width: 20px;
+        height: 20px;
+    }
 }

@@ -221,10 +221,13 @@ nav>ul {
 .instant-play{
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
+
+
 .instant-play p {
-    padding-right: 80rem;
+    padding-right: 15rem;
     padding-top: 2rem;
 }
 

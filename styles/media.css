@@ -155,6 +155,10 @@
         padding-top: 15rem;
     }
 
+    .instant-play p {
+        padding-right: 10rem;
+    }
+
     .game-genre{
         padding: 8rem 10rem;
     }

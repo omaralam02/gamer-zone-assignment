@@ -26,12 +26,12 @@ main {
 
 .section-title {
     font-size: var(--primary-font-size);
-    color: var(--title-color) font-weight: 600;
+    color: var(--title-color);font-weight: 600;
 }
 
 .section-desc {
     font-size: var(--third-font-seize);
-    color: var(--desc-color) font-weight: 500;
+    color: var(--desc-color); font-weight: 500;
 }
 
 .banner-btn {
@@ -238,8 +238,9 @@ nav>ul {
 }
 
 .float-img {
+    width: 50%;
     position: absolute;
-    left: -20%;
+    left: -25%;
     bottom: -10%;
 }
 

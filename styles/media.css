@@ -126,3 +126,40 @@
         margin: 2rem 3rem;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav {
+        padding: 8rem 0;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding-bottom: 3rem;
+    }
+
+    .nav-list {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .follow-us{
+        width: 40%;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding-top: 20rem;
+    }
+
+    .online-games {
+        padding-top: 15rem;
+    }
+
+    .game-genre{
+        padding: 8rem 10rem;
+    }
+
+    .footer {
+        padding: 8rem 4rem;
+    }
+}

@@ -104,4 +104,25 @@
         width: 20px;
         height: 20px;
     }
+    
+    .footer {
+        padding: 60px 20px;
+        font-size: 1rem;
+    }
+
+    .footer-desc, .social-links {
+        flex-wrap: wrap;
+    }
+
+    .footer-desc li {
+        margin: 20px;
+    }
+
+    .social-links{
+        padding: 0;
+    }
+
+    .social-links li {
+        margin: 2rem 3rem;
+    }
 }

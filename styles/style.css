@@ -246,7 +246,7 @@ nav>ul {
 /* Game Genre Styles */
 .game-genre {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 120px 140px;
+    padding: 120px 150px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -273,4 +273,51 @@ nav>ul {
 
 .btn-primary img {
     margin-right: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 120px 20rem;
+    background: var(--title-color);
+}
+
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.footer-logo h3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.footer > ul {
+    list-style: none;
+}
+
+.footer-desc {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: #FFF;
+    font-size: var(--third-font-seize);
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15rem;
+}
+
+.privacy-list li{
+    color: var(--desc-color);
+    font-size: 1.6rem;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 1.6rem;
 }

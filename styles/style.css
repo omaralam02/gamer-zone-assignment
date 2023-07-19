@@ -220,11 +220,9 @@ nav>ul {
 /* Instant Play styles */
 .instant-play{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
 }
-
-
 
 .instant-play p {
     padding-right: 15rem;
